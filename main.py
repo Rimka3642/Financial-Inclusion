@@ -128,14 +128,4 @@ if st.sidebar.button("Validate"):
     # Afficher la prédiction
     st.subheader(f"{'Yes' if prediction[0] else 'No'} this individual is most likely to have or use a bank account.")
 
-# Ajouter une légende pour expliquer les paramètres
-st.caption("Les paramètres affichés en chiffres correspondent à:")
-st.caption("1. Country: Rwanda, Tanzania, Kenya, Uganda")
-st.caption("2. Location Type: Rural, Urban")
-st.caption("3. Cellphone Access: Yes, No")
-st.caption("4. Gender of Respondent: Male, Female")
-st.caption("5. Les autres paramètres correspondent aux valeurs disponibles dans le dataset.")
-
-#Updated 13/04
-
 
